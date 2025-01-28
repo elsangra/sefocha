@@ -7,10 +7,10 @@ export default {
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
-	daisyui: {
-		themes: ["light", "dark", "cupcake"],
-	},
   theme: {
+		daisyui: {
+		  themes: ["light", "dark", "cupcake"],
+	  },
   	extend: {
   		colors: {
   			background: 'hsl(var(--background))',
@@ -23,15 +23,6 @@ export default {
   				DEFAULT: 'hsl(var(--popover))',
   				foreground: 'hsl(var(--popover-foreground))'
   			},
-			animation: {
-				move: "move 5s linear infinite",
-			},
-			keyframes: {
-				move: {
-					"0%": { transform: "translateX(-200px)" },
-					"100%": { transform: "translateX(200px)" },
-				},
-			},
   			primary: {
   				DEFAULT: 'hsl(var(--primary))',
   				foreground: 'hsl(var(--primary-foreground))'
@@ -70,6 +61,5 @@ export default {
   		}
   	}
   },
-	// eslint-disable-next-line @typescript-eslint/no-require-imports
-  plugins: [require("tailwindcss-animate"),require('daisyui'),],
+  plugins: [ require("daisyui"), require("tailwindcss-animate")],
 } satisfies Config;

@@ -1,11 +1,10 @@
-import Navbar from "@/app/components/navbar/navbar.component";
-import Imageslider from "@/app/components/slider/slider.component";
-import Card from "@/app/components/cards/cards.components";
+import Navbar from "@/app/components.app/navbar/navbar.component";
+import {Imagesslider} from "@/app/components.app/slider/slider.component";
 
 export default function Home() {
   return (
-    <div >
-        <Navbar/><Imageslider/>
+    <div>
+      <Navbar /> <Imagesslider/>
     </div>
   );
 }
