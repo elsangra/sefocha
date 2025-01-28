@@ -21,7 +21,6 @@ export const ImagesSlider = ({
   direction?: "up" | "down";
 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [loading, setLoading] = useState(false);
   const [loadedImages, setLoadedImages] = useState<string[]>([]);
 
@@ -70,8 +69,8 @@ export const ImagesSlider = ({
 
     window.addEventListener("keydown", handleKeyDown);
 
-
-    let interval: unknown;
+    // autoplay
+    let interval: any;
     if (autoplay) {
       interval = setInterval(() => {
         handleNext();
@@ -80,8 +79,6 @@ export const ImagesSlider = ({
 
     return () => {
       window.removeEventListener("keydown", handleKeyDown);
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-expect-error
       clearInterval(interval);
     };
   }, []);
