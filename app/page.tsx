@@ -84,7 +84,7 @@ export default function Home() {
         "We address climate change through conservation initiatives, risk reduction strategies, and sustainable agriculture. By promoting eco-friendly farming, food security, and climate resilience, we support youth and women in achieving self-sufficiency and environmental stewardship..",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
-          Climate Change
+          Environmental Sustainability & Livelihoods
         </div>
       ),
     },
@@ -94,7 +94,7 @@ export default function Home() {
         " We empower women and youth through skills development, enterprise incubation, and financial inclusion to foster economic growth. Our education programs advocate for equal access to quality learning, supporting school infrastructure, vocational training, and policy advocacy. In healthcare, we enhance community capacity to combat diseases, promote sexual reproductive health, and collaborate with government agencies for sustainable health services.",
       content: (
         <div className="h-full w-full  flex items-center justify-center text-white">
-          Education
+          Economic Empowerment, Education & Health
         </div>
       ),
     },
@@ -104,7 +104,7 @@ export default function Home() {
         "We champion the rights of marginalized groups, including persons with disabilities and survivors of gender-based violence. Through advocacy, capacity-building, and community engagement, we address discrimination, promote inclusivity, and empower vulnerable populations. Our human rights programs focus on governance, awareness, and policy influence to ensure equal opportunities for all.",
       content: (
         <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-          Healthcare
+          Social Inclusion & Human Rights
         </div>
       ),
     },
@@ -145,11 +145,11 @@ export default function Home() {
     },
     {
       text: "- ",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-slate-300 dark:text-slate-300",
     },
     {
       text: "SEFOCHA.",
-      className: "text-blue-500 dark:text-blue-500",
+      className: "text-slate-300 dark:text-slate-300",
     },
   ];
   const placeholders = [
@@ -188,7 +188,7 @@ export default function Home() {
       </div>
       <Imagesslider/>
       <div className="md-mx-0 mx-2">
-        <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
+        <h1 className="text-[#bcdc49] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
           Our Impact
         </h1>
         <div className="max-w-[800px] flex items-center justify-center mx-auto my-0 p-8">
@@ -196,7 +196,7 @@ export default function Home() {
           </p>
         </div>
         <StickyScroll content={content} />
-        <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
+        <h1 className="text-[#bcdc49] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
           Thematic Areas
         </h1>
         <HoverEffect items={projects} />
@@ -208,7 +208,7 @@ export default function Home() {
             pauseOnHover={true}
           />
         </div>
-        <h1 className="text-[#42C5E2] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
+        <h1 className="text-[#bcdc49] text-3xl md:text-5xl font-bold text-center mb-4 mt-32">
           Why SeFoCHa For the community ?
         </h1>
         <div className="bg-slate-950">
@@ -225,8 +225,8 @@ export default function Home() {
         /> */}
         <div className="flex items-center justify-center">
           <a
-            href="mailto:mlsa@dekut-hack.live"
-            className="flex items-center justify-center text-gray-900 rounded-md bg-[#42c5e2] border-2 border-[#42c5e2] hover:bg-transparent hover:scale-110 ease-in duration-200 hover:text-gray-400"
+            href="mailto:info@sefocha.org"
+            className="flex items-center justify-center text-gray-900 rounded-md bg-slate-950 border-2 border-cyan-950 hover:bg-transparent hover:scale-110 ease-in duration-200 hover:text-gray-400"
           >
             <button className="rounded-lg px-4 py-4 flex justify-between gap-2 text-xl">
               Send us a mail
