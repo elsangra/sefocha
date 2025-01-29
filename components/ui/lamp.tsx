@@ -133,8 +133,6 @@ export const LampContainer = ({
               }}
               className="text-[#42C5E2] text-lg md:text-xl text-center font-bold md:mb-0 mb-4"
             >
-              {/* {days} days {hours} hours {minutes} minutes {seconds} seconds */}{" "}
-              Registration Closed
             </motion.h1>
             <motion.a
               initial={{ opacity: 0.5, y: 100 }}
@@ -148,7 +146,6 @@ export const LampContainer = ({
               target="_blank"
               className="px-4 cursor-not-allowed md:px-12 py-2 text-white text-lg rounded-md hover:bg-slate-950 hover:text-[#42C5E2] ease-in-out duration-150 hover:scale-110 border-2 border-[#42c7e2] hover:border-0 flex justify-center items-center"
             >
-              Register
             </motion.a>
           </div>
         </motion.div>
